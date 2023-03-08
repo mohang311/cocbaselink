@@ -1,0 +1,474 @@
+<!-- town hall 4 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+<body>
+<div id="th4">
+      <h1 class="text-light text-center">Town Hall Base for 4</h1>
+        <!-- filter -->
+            <section>
+              <div class="button-row"> <!-- add the data-target like #i1,#w1 -->
+                <button class="s" data-target="#i1">All</button>
+                <button class="s" data-target="#w1,#w2,#w3,#w4,#w5">War</button>
+                <button class="s" data-target="#f1,#f2,#f3,#f4,#f5">Farming</button>
+                <button class="s" data-target="#d1,#d2,#d3,#d4,#d5">Defence</button>
+                <button class="s" data-target="#t1,#t2,#t3,#t4,#t5">Troll/Funny</button>
+              </div>
+            </section>
+        <!-- ultrafilter -->
+            <!-- <section>
+              <div class="button-filter">
+                <button class="s" data-target=""><img src="images/bookmark-svgrepo-com.svg" alt="" height="25px" width="25px">Anti 2 Stars</button>
+                <button class="s" data-target=""><img src="images/bookmark-svgrepo-com.svg" alt="" height="25px" width="25px">Anti 3 stars</button>
+                <button class="s" data-target=""><img src="images/bookmark-svgrepo-com.svg" alt="" height="25px" width="25px">Anti Everything</button>
+                <button class="s" data-target=""><img src="images/bookmark-svgrepo-com.svg" alt="" height="25px" width="25px">Legend League</button>
+                <button class="s" data-target=""><img src="images/bookmark-svgrepo-com.svg" alt="" height="25px" width="25px">Anti Air/Electro Dragon</button>
+                <button class="s" data-target=""><img src="images/bookmark-svgrepo-com.svg" alt="" height="25px" width="25px">Hybrid</button>
+              </div>
+            </section> -->
+        <!-- sort -->
+            <!-- <section>
+              <div class="sort">
+                <p>Sort By :</p>
+                <button>Date</button>
+                <button>Views</button>
+              </div>
+            </section> -->
+<!-- main section -->
+
+<section>
+
+
+<div class=" row p-3 " >
+<!-- for war -->
+      <!-- copy here to -->
+      <div class="col col-md-6 col-lg-4 p-3  copy war " id="w1"><!-- change the id no only -->
+        <div class="card p-2 " style="width: 100%;">
+          <!--image link-->
+          <img src="http://drive.google.com/uc?export=view&id=" class="card-img-top p-2 t" alt="...">
+          <div class="input-group mb-3">
+            <!-- change the value for the base link-->
+            <input type="text" class="form-control" id="tw0" value="" readonly>
+            <!-- copy link button -->
+            <button class="btn btn-outline-secondary" type="button" class="button-addon" onclick="myFunction('tw0')">
+              <img src="images/copy-duplicate-paste-svgrepo-com.svg" alt="..." height="20px" width="20px">
+            </button>
+          </div>
+          <!-- change the date manually -->
+          <p id="date">Uploaded on 5Mar,2023</p>
+        </div>
+      </div>
+      <!--copy here end   -->
+      <!-- copy here to -->
+      <div class="col col-md-6 col-lg-4 p-3  copy war" id="w2"><!-- change the id no only -->
+        <div class="card p-2 " style="width: 100%;">
+          <!--image link-->
+          <img src="http://drive.google.com/uc?export=view&id=" class="card-img-top p-2 t" alt="...">
+          <div class="input-group mb-3">
+            <!-- change the value for the base link and id no also-->
+            <input type="text" class="form-control" id="tw1" value="" readonly>
+            <!-- copy link button -->
+            <button class="btn btn-outline-secondary" type="button" class="button-addon" onclick="myFunction('tw1')">
+              <img src="images/copy-duplicate-paste-svgrepo-com.svg" alt="..." height="20px" width="20px">
+            </button>
+          </div>
+          <!-- change the date manually -->
+          <p id="date">Uploaded on 5Mar,2023</p>
+        </div>
+      </div>
+      <!--copy here end   -->
+      <!-- copy here to -->
+      <div class="col col-md-6 col-lg-4 p-3  copy war" id="w3"><!-- change the id no only -->
+        <div class="card p-2 " style="width: 100%;">
+          <!--image link-->
+          <img src="http://drive.google.com/uc?export=view&id=" class="card-img-top p-2 t" alt="...">
+          <div class="input-group mb-3">
+            <!-- change the value for the base link-->
+            <input type="text" class="form-control" id="tw2" value="" readonly>
+            <!-- copy link button -->
+            <button class="btn btn-outline-secondary" type="button" class="button-addon" onclick="myFunction('tw2')">
+              <img src="images/copy-duplicate-paste-svgrepo-com.svg" alt="..." height="20px" width="20px">
+            </button>
+          </div>
+          <!-- change the date manually -->
+          <p id="date">Uploaded on 5Mar,2023</p>
+        </div>
+      </div>
+      <!--copy here end   -->
+      <!-- copy here to -->
+      <div class="col col-md-6 col-lg-4 p-3  copy war" id="w4"><!-- change the id no only -->
+        <div class="card p-2 " style="width: 100%;">
+          <!--image link-->
+          <img src="http://drive.google.com/uc?export=view&id=" class="card-img-top p-2 t" alt="...">
+          <div class="input-group mb-3">
+            <!-- change the value for the base link-->
+            <input type="text" class="form-control" id="tw3" value="" readonly>
+            <!-- copy link button -->
+            <button class="btn btn-outline-secondary" type="button" class="button-addon" onclick="myFunction('tw3')">
+              <img src="images/copy-duplicate-paste-svgrepo-com.svg" alt="..." height="20px" width="20px">
+            </button>
+          </div>
+          <!-- change the date manually -->
+          <p id="date">Uploaded on 5Mar,2023</p>
+        </div>
+      </div>
+      <!--copy here end   -->
+      <!-- copy here to -->
+      <div class="col col-md-6 col-lg-4 p-3  copy war" id="w5"><!-- change the id no only -->
+        <div class="card p-2 " style="width: 100%;">
+          <!--image link-->
+          <img src="http://drive.google.com/uc?export=view&id=" class="card-img-top p-2 t" alt="...">
+          <div class="input-group mb-3">
+            <!-- change the value for the base link-->
+            <input type="text" class="form-control" id="tw4" value="" readonly>
+            <!-- copy link button -->
+            <button class="btn btn-outline-secondary" type="button" class="button-addon" onclick="myFunction('tw4')">
+              <img src="images/copy-duplicate-paste-svgrepo-com.svg" alt="..." height="20px" width="20px">
+            </button>
+          </div>
+          <!-- change the date manually -->
+          <p id="date">Uploaded on 5Mar,2023</p>
+        </div>
+      </div>
+      <!--copy here end   -->
+    
+  
+<!-- for farming -->
+      <!-- copy here to -->
+      <div class="col col-md-6 col-lg-4 p-3  copy farming" id="f1"><!-- change the id no only -->
+        <div class="card p-2 " style="width: 100%;">
+          <!--image link-->
+          <img src="http://drive.google.com/uc?export=view&id=" class="card-img-top p-2 t" alt="...">
+          <div class="input-group mb-3">
+            <!-- change the value for the base link-->
+            <input type="text" class="form-control" id="tf1" value="" readonly >
+            <!-- copy link button -->
+            <button class="btn btn-outline-secondary" type="button" class="button-addon" onclick="myFunction('tf1')">
+              <img src="images/copy-duplicate-paste-svgrepo-com.svg" alt="..." height="20px" width="20px">
+            </button>
+          </div>
+          <!-- change the date manually -->
+          <p id="date">Uploaded on 5Mar,2023</p>
+        </div>
+      </div>
+      <!--copy here end   -->
+      <!-- copy here to -->
+      <div class="col col-md-6 col-lg-4 p-3  copy farming" id="f2"><!-- change the id no only -->
+        <div class="card p-2 " style="width: 100%;">
+          <!--image link-->
+          <img src="http://drive.google.com/uc?export=view&id=" class="card-img-top p-2 t" alt="...">
+          <div class="input-group mb-3">
+            <!-- change the value for the base link-->
+            <input type="text" class="form-control" id="tf2" value="" readonly>
+            <!-- copy link button -->
+            <button class="btn btn-outline-secondary" type="button" class="button-addon" onclick="myFunction('tf2')">
+              <img src="images/copy-duplicate-paste-svgrepo-com.svg" alt="..." height="20px" width="20px">
+            </button>
+          </div>
+          <!-- change the date manually -->
+          <p id="date">Uploaded on 5Mar,2023</p>
+        </div>
+      </div>
+      <!--copy here end   -->
+      <!-- copy here to -->
+      <div class="col col-md-6 col-lg-4 p-3  copy farming" id="f3"><!-- change the id no only -->
+        <div class="card p-2 " style="width: 100%;">
+          <!--image link-->
+          <img src="http://drive.google.com/uc?export=view&id=" class="card-img-top p-2 t" alt="...">
+          <div class="input-group mb-3">
+            <!-- change the value for the base link-->
+            <input type="text" class="form-control" id="tf3" value="" readonly>
+            <!-- copy link button -->
+            <button class="btn btn-outline-secondary" type="button" class="button-addon" onclick="myFunction('tf3')">
+              <img src="images/copy-duplicate-paste-svgrepo-com.svg" alt="..." height="20px" width="20px">
+            </button>
+          </div>
+          <!-- change the date manually -->
+          <p id="date">Uploaded on 5Mar,2023</p>
+        </div>
+      </div>
+      <!--copy here end   -->
+      <!-- copy here to -->
+      <div class="col col-md-6 col-lg-4 p-3  copy farming" id="f4"><!-- change the id no only -->
+        <div class="card p-2 " style="width: 100%;">
+          <!--image link-->
+          <img src="http://drive.google.com/uc?export=view&id=" class="card-img-top p-2 t" alt="...">
+          <div class="input-group mb-3">
+            <!-- change the value for the base link-->
+            <input type="text" class="form-control" id="tf4" value="" readonly>
+            <!-- copy link button -->
+            <button class="btn btn-outline-secondary" type="button" class="button-addon" onclick="myFunction('tf4')">
+              <img src="images/copy-duplicate-paste-svgrepo-com.svg" alt="..." height="20px" width="20px">
+            </button>
+          </div>
+          <!-- change the date manually -->
+          <p id="date">Uploaded on 5Mar,2023</p>
+        </div>
+      </div>
+      <!--copy here end   -->
+      <!-- copy here to -->
+      <div class="col col-md-6 col-lg-4 p-3  copy farming" id="f5"><!-- change the id no only -->
+        <div class="card p-2 " style="width: 100%;">
+          <!--image link-->
+          <img src="http://drive.google.com/uc?export=view&id=" class="card-img-top p-2 t" alt="...">
+          <div class="input-group mb-3">
+            <!-- change the value for the base link-->
+            <input type="text" class="form-control" id="tf5" value="" readonly>
+            <!-- copy link button -->
+            <button class="btn btn-outline-secondary" type="button" class="button-addon" onclick="myFunction('tf5')">
+              <img src="images/copy-duplicate-paste-svgrepo-com.svg" alt="..." height="20px" width="20px">
+            </button>
+          </div>
+          <!-- change the date manually -->
+          <p id="date">Uploaded on 5Mar,2023</p>
+        </div>
+      </div>
+      <!--copy here end   -->
+
+  
+<!-- for defence -->
+
+      <!-- copy here to -->
+      <div class="col col-md-6 col-lg-4 p-3  copy defence" id="d1"><!-- change the id no only -->
+        <div class="card p-2" style="width: 100%;">
+          <!--image link-->
+          <img src="http://drive.google.com/uc?export=view&id=" class="card-img-top p-2 t" alt="...">
+          <div class="input-group mb-3">
+            <!-- change the value for the base link-->
+            <input type="text" class="form-control" id="td1" value="" readonly>
+            <!-- copy link button -->
+            <button class="btn btn-outline-secondary" type="button" class="button-addon" onclick="myFunction('td1')">
+              <img src="images/copy-duplicate-paste-svgrepo-com.svg" alt="..." height="20px" width="20px">
+            </button>
+          </div>
+          <!-- change the date manually -->
+          <p id="date">Uploaded on 5Mar,2023</p>
+        </div>
+      </div>
+      <!--copy here end   -->
+      <!-- copy here to -->
+      <div class="col col-md-6 col-lg-4 p-3  copy defence" id="d2"><!-- change the id no only -->
+        <div class="card p-2" style="width: 100%;">
+          <!--image link-->
+          <img src="http://drive.google.com/uc?export=view&id=" class="card-img-top p-2 t" alt="...">
+          <div class="input-group mb-3">
+            <!-- change the value for the base link-->
+            <input type="text" class="form-control" id="td2" value="" readonly>
+            <!-- copy link button -->
+            <button class="btn btn-outline-secondary" type="button" class="button-addon" onclick="myFunction('td2')">
+              <img src="images/copy-duplicate-paste-svgrepo-com.svg" alt="..." height="20px" width="20px">
+            </button>
+          </div>
+          <!-- change the date manually -->
+          <p id="date">Uploaded on 5Mar,2023</p>
+        </div>
+      </div>
+      <!--copy here end   -->
+      <!-- copy here to -->
+      <div class="col col-md-6 col-lg-4 p-3  copy defence" id="d3"><!-- change the id no only -->
+        <div class="card p-2" style="width: 100%;">
+          <!--image link-->
+          <img src="http://drive.google.com/uc?export=view&id=" class="card-img-top p-2 t" alt="...">
+          <div class="input-group mb-3">
+            <!-- change the value for the base link-->
+            <input type="text" class="form-control" id="td3" value="" readonly>
+            <!-- copy link button -->
+            <button class="btn btn-outline-secondary" type="button" class="button-addon" onclick="myFunction('td3')">
+              <img src="images/copy-duplicate-paste-svgrepo-com.svg" alt="..." height="20px" width="20px">
+            </button>
+          </div>
+          <!-- change the date manually -->
+          <p id="date">Uploaded on 5Mar,2023</p>
+        </div>
+      </div>
+      <!--copy here end   -->
+      <!-- copy here to -->
+      <div class="col col-md-6 col-lg-4 p-3  copy defence" id="d4"><!-- change the id no only -->
+        <div class="card p-2" style="width: 100%;">
+          <!--image link-->
+          <img src="http://drive.google.com/uc?export=view&id=" class="card-img-top p-2 t" alt="...">
+          <div class="input-group mb-3">
+            <!-- change the value for the base link-->
+            <input type="text" class="form-control" id="td4" value="" readonly>
+            <!-- copy link button -->
+            <button class="btn btn-outline-secondary" type="button" class="button-addon" onclick="myFunction('td4')">
+              <img src="images/copy-duplicate-paste-svgrepo-com.svg" alt="..." height="20px" width="20px">
+            </button>
+          </div>
+          <!-- change the date manually -->
+          <p id="date">Uploaded on 5Mar,2023</p>
+        </div>
+      </div>
+      <!--copy here end   -->
+      <!-- copy here to -->
+      <div class="col col-md-6 col-lg-4 p-3  copy defence" id="d5"><!-- change the id no only -->
+        <div class="card p-2" style="width: 100%;">
+          <!--image link-->
+          <img src="http://drive.google.com/uc?export=view&id=" class="card-img-top p-2 t" alt="...">
+          <div class="input-group mb-3">
+            <!-- change the value for the base link-->
+            <input type="text" class="form-control" id="td5" value="" readonly>
+            <!-- copy link button -->
+            <button class="btn btn-outline-secondary" type="button" class="button-addon" onclick="myFunction('td5')">
+              <img src="images/copy-duplicate-paste-svgrepo-com.svg" alt="..." height="20px" width="20px">
+            </button>
+          </div>
+          <!-- change the date manually -->
+          <p id="date">Uploaded on 5Mar,2023</p>
+        </div>
+      </div>
+      <!--copy here end   -->
+
+  
+<!-- for troll and funny -->
+
+      <!-- copy here to -->
+      <div class="col col-md-6 col-lg-4 p-3  copy troll" id="t1"> <!-- change the id no only -->
+        <div class="card p-2" style="width: 100%;">
+          <!--image link-->
+          <img src="http://drive.google.com/uc?export=view&id=" class="card-img-top p-2 t" alt="...">
+          <div class="input-group mb-3">
+            <!-- change the value for the base link-->
+            <input type="text" class="form-control" id="tt1" value="" readonly>
+            <!-- copy link button -->
+            <button class="btn btn-outline-secondary" type="button" class="button-addon" onclick="myFunction('tt1')">
+              <img src="images/copy-duplicate-paste-svgrepo-com.svg" alt="..." height="20px" width="20px">
+            </button>
+          </div>
+          <!-- change the date manually -->
+          <p id="date">Uploaded on 5Mar,2023</p>
+        </div>
+      </div>
+      <!--copy here end   -->
+      <!-- copy here to -->
+      <div class="col col-md-6 col-lg-4 p-3  copy troll" id="t2"> <!-- change the id no only -->
+        <div class="card p-2" style="width: 100%;">
+          <!--image link-->
+          <img src="http://drive.google.com/uc?export=view&id=" class="card-img-top p-2 t" alt="...">
+          <div class="input-group mb-3">
+            <!-- change the value for the base link-->
+            <input type="text" class="form-control" id="tt2" value="" readonly>
+            <!-- copy link button -->
+            <button class="btn btn-outline-secondary" type="button" class="button-addon" onclick="myFunction('tt2')">
+              <img src="images/copy-duplicate-paste-svgrepo-com.svg" alt="..." height="20px" width="20px">
+            </button>
+          </div>
+          <!-- change the date manually -->
+          <p id="date">Uploaded on 5Mar,2023</p>
+        </div>
+      </div>
+      <!--copy here end   -->
+      <!-- copy here to -->
+      <div class="col col-md-6 col-lg-4 p-3  copy troll" id="t3"> <!-- change the id no only -->
+        <div class="card p-2" style="width: 100%;">
+          <!--image link-->
+          <img src="http://drive.google.com/uc?export=view&id=" class="card-img-top p-2 t" alt="...">
+          <div class="input-group mb-3">
+            <!-- change the value for the base link-->
+            <input type="text" class="form-control" id="tt3" value="" readonly>
+            <!-- copy link button -->
+            <button class="btn btn-outline-secondary" type="button" class="button-addon" onclick="myFunction('tt3')">
+              <img src="images/copy-duplicate-paste-svgrepo-com.svg" alt="..." height="20px" width="20px">
+            </button>
+          </div>
+          <!-- change the date manually -->
+          <p id="date">Uploaded on 5Mar,2023</p>
+        </div>
+      </div>
+      <!--copy here end   -->
+      <!-- copy here to -->
+      <div class="col col-md-6 col-lg-4 p-3  copy troll" id="t4"> <!-- change the id no only -->
+        <div class="card p-2" style="width: 100%;">
+          <!--image link-->
+          <img src="http://drive.google.com/uc?export=view&id=" class="card-img-top p-2 t" alt="...">
+          <div class="input-group mb-3">
+            <!-- change the value for the base link-->
+            <input type="text" class="form-control" id="tt4" value="" readonly>
+            <!-- copy link button -->
+            <button class="btn btn-outline-secondary" type="button" class="button-addon" onclick="myFunction('tt4')">
+              <img src="images/copy-duplicate-paste-svgrepo-com.svg" alt="..." height="20px" width="20px">
+            </button>
+          </div>
+          <!-- change the date manually -->
+          <p id="date">Uploaded on 5Mar,2023</p>
+        </div>
+      </div>
+      <!--copy here end   -->
+      <!-- copy here to -->
+      <div class="col col-md-6 col-lg-4 p-3  copy troll" id="t5"> <!-- change the id no only -->
+        <div class="card p-2" style="width: 100%;">
+          <!--image link-->
+          <img src="http://drive.google.com/uc?export=view&id=" class="card-img-top p-2 t" alt="...">
+          <div class="input-group mb-3">
+            <!-- change the value for the base link-->
+            <input type="text" class="form-control" id="tt5" value="" readonly>
+            <!-- copy link button -->
+            <button class="btn btn-outline-secondary" type="button" class="button-addon" onclick="myFunction('tt5')">
+              <img src="images/copy-duplicate-paste-svgrepo-com.svg" alt="..." height="20px" width="20px">
+            </button>
+          </div>
+          <!-- change the date manually -->
+          <p id="date">Uploaded on 5Mar,2023</p>
+        </div>
+      </div>
+      <!--copy here end   -->
+ 
+</div>
+</section>
+         
+
+<!-- for copy to the clipboard code in js-->
+        <script src="copy.js"></script>  
+        <!-- image shown in 60% screen code in jquery-->
+        <script>
+          $(document).ready(function(t) {
+  $(".t").click(function() {
+    var elem = this;
+    if (elem.requestFullscreen) {
+      if (!document.fullscreenElement) {
+        // Make the element full screen
+        elem.requestFullscreen();
+        // Use screen.width and screen.height to get the screen size
+        // Set the element's width and height to 60% of the screen size
+        elem.style.width = screen.width * 0.6 + "px";
+        elem.style.height = screen.height * 0.6 + "px";
+      } else {
+        // Exit full screen
+        document.exitFullscreen();
+        // Reset the element's width and height to their original values
+        elem.style.width = "";
+        elem.style.height = "";
+      }
+    }
+  });
+});
+        </script> 
+        <!-- hide and show the div code jquery -->
+        <script>
+          showElementOnClick('.s', '.copy');
+            function showElementOnClick(buttonSelector, elementSelector) {
+              $(document).ready(function() {
+                $(buttonSelector).click(function() {
+                  var target = $(this).data('target');
+                  if (target === '#i1') { // if "All" button is clicked
+                    $(elementSelector).show(); // show all elements
+                  } else {
+                    $(elementSelector).not(target).hide(); // hide all elements except the target
+                    $(target).show(); // show the target element
+                  }
+                });
+              });
+            }
+        </script>
+</div>  
+</body>
+</html>

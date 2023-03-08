@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Mono', monospace;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url("images/backgroundimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #545353;
+    display: flex;  
+    overflow-x: hidden;
+  
+}
+
+/* webpage background */
+.glass {
+    position: relative;
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    background-color: rgba(75, 71, 71, 0.5);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    margin: 10px;
+    padding: 20px;
+    color: #333;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.glass::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    background: inherit;
+    filter: blur(20px);
+    opacity: 0.5;
+    z-index: -1;
+}
+/* navbar  */
+#navbar{
+    border-radius: 20px;
+    background-color: rgba(218, 149, 149, 0.804); /* Set the background color with some opacity */
+  backdrop-filter: blur(20px); /* Apply a blur effect to the background */
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); /* Add a shadow effect to the div */
+}
+
+/* townhall button */
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+ 
+  }
+  
+  .button-grid button {
+    padding: 10px;
+    border: none;
+    background-color: #d0bdf4;
+    color: #55407b;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-weight: 400;
+  }
+  /* textgradient */
+  /* .text{
+    background-image: linear-gradient(to right, #ff0000, #c7e2c7, #83e297); 
+    -webkit-background-clip: text;
+    color: transparent;
+
+  } */
+  /* filter */
+  /* ultrafilter */
+  .button-row, .button-filter{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+  }
+  .button-row button,.button-filter button , .sort button{
+    padding: 10px;
+    border: none;
+    background-color:  #9850a1;
+    color: rgb(246, 246, 246);
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+ /* sort */
+  /* .sort{
+    color:aliceblue
+  }
+.button-addon{
+  background-color: #d0bdf4;
+} */
+/*button color change */
+.active , .button-grid button:focus, .button-row button:focus{
+  background-color: #62306b;
+  color: #fff;
+}
+.show{
+  height: auto;
+  padding-bottom: 30px;
+}
+.footer1{
+  margin-bottom: 0;
+  background-color: #93cc91;
+  border-radius: 30px;
+}
+
+.row{
+  overflow: hidden;
+}
